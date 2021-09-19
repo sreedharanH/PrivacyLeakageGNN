@@ -1,6 +1,4 @@
-# Quantifying Privacy Leakage in Graph Embedding (MobiQuitous'20 and NeurIPS PPML '20)
 
-Preprint: https://arxiv.org/pdf/2010.00906.pdf
 
 The code is as follows:
 
@@ -13,10 +11,3 @@ The code is as follows:
 Data: The facebook and LastFM dataset for attribute inference attacks is available from Stanford Large Network Datasete Collection. The data for graph reconstruction requires to load the train and test graphs seperately unlike what most libraries provider. The data can be obtained from https://github.com/DaehanKim/vgae_pytorch.
 
 
-Credits:
-
-- Node2Vec and DeepWalk embeddings algorithms from their original repositories (https://github.com/phanein/deepwalk) (https://github.com/aditya-grover/node2vec)
-
-- Graph Encoder Decoder: https://github.com/DaehanKim/vgae_pytorch
-
-- BlackBox MIA: https://github.com/inspire-group/privacy-vs-robustness
